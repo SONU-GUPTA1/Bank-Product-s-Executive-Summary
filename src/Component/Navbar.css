@@ -1,0 +1,37 @@
+
+nav{
+    position: fixed;
+    top: 61px;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    border-right: 1px solid #f2f2f2;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+li{
+    display: flex;
+    height: 40px;
+    background-color:  #f2f2f2;
+    /* padding: 10px; */
+    margin-left: 5px;
+    align-items: center;
+
+}
+.li-item{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    margin-left: 10px;
+}
+li .active {
+    display: flex;
+    background-color: #b6e1fc;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+}
